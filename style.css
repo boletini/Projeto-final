@@ -56,6 +56,14 @@ header .menu nav ul li a:hover {
   background-color: #9f0f0f;
 }
 
+#sobre{
+  background-color: #9f0f0f;
+}
+
+#rifa{
+  background-color: #9f0f0f;
+}
+
 /* Alinhamento dos textos à esquerda e imagem à direita */
 .banner {
   display: flex;
