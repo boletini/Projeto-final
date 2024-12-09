@@ -255,3 +255,39 @@
     color: #bf1616;
 }
 
+/* TABLET */
+@media (max-width: 960px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-cards {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+/* Responsivo para smartphones */
+@media (max-width: 640px) {
+  .menu ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .texto p {
+    font-size: 0.9rem;
+  }
+
+  .texto h1, .texto h2, .texto h3 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+}
